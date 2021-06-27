@@ -2,8 +2,8 @@
 
 Taking together Stanford CS224n course
 
-__Course__: [link](http://web.stanford.edu/class/cs224n/) </br>
-__Video__: [link](https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z)
+__Course page__: [link](http://web.stanford.edu/class/cs224n/) </br>
+__YouTube Videos__: [link](https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z)
 
 ------------------------------------------------
 __How to submit homework__:
