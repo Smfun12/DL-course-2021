@@ -2,11 +2,11 @@
 
 Taking together Stanford CS224n course
 
-Course: [link](http://web.stanford.edu/class/cs224n/) </br>
-Video: [link](https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z)
+__Course page__: [link](http://web.stanford.edu/class/cs224n/) </br>
+__YouTube Videos__: [link](https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z)
 
-
-How to submit homework:
+------------------------------------------------
+__How to submit homework__:
 1. Fork repository
 2. Commit finished assignment and push it
 3. Make a pull request
