@@ -34,3 +34,8 @@ __How to submit homework__:
 
 __[Assignment 1](http://web.stanford.edu/class/cs224n/assignments/a1.zip)__ deadline: 15/07/21 
 
+
+
+# Project ideas
+- Adversarial attacks on NLP models (https://arxiv.org/pdf/1911.03677.pdf)
+- NLP models (BERT, RoBERT, ALBERT, etc.) in continual learning setting
