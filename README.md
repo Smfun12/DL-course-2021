@@ -5,6 +5,11 @@ Taking together Stanford CS224n course
 __Course page__: [link](http://web.stanford.edu/class/cs224n/) </br>
 __YouTube Videos__: [link](https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z)
 
+* Russian version of the course:
+* __Spring 2020__: [link](https://www.youtube.com/playlist?list=PLt1IfGj6-_-eLbx1kGtFxU53aRyPkctPq)
+* __Summer 2019__: [link](https://www.youtube.com/watch?v=3nKhzlfaOTE&list=PLt1IfGj6-_-f55ULcae3v7YuG8p_eUjnk)
+* __Fall 2018__: [link](https://www.youtube.com/watch?v=ctPE2pDufBQ&list=PLt1IfGj6-_-db8QpSY09KhQnfkSw9urr8)
+
 ------------------------------------------------
 __How to submit homework__:
 1. Fork repository
