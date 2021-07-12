@@ -32,7 +32,7 @@ __How to submit homework__:
     - [A Corrected CBOW Implementation](https://arxiv.org/pdf/2012.15332.pdf)
 </br>
 
-__[Assignment 1](http://web.stanford.edu/class/cs224n/assignments/a1.zip)__ deadline: 15/07/21 
+__[Assignment 1](http://web.stanford.edu/class/cs224n/assignments/a1.zip)__ deadline: 16/07/21 
 
 
 
