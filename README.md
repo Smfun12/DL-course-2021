@@ -44,6 +44,16 @@ __How to submit homework__:
   - Optional materials:
     - [A Latent Variable Model Approach to PMI-based Word Embeddings](https://aclanthology.org/Q16-1028.pdf)
 
+## Week 3. Neural Networks and Backprop
+  - [Video lecture](https://www.youtube.com/watch?v=8CWyBNX6eDo)
+  - [Matrix calculus review](http://web.stanford.edu/class/cs224n/readings/gradient-notes.pdf), [Differential calculus review](http://web.stanford.edu/class/cs224n/readings/review-differential-calculus.pdf)
+  - [Derivatives, Backprop, and Vectorization](http://cs231n.stanford.edu/handouts/derivatives.pdf)
+  - [Learning representations by back-propagating errors](http://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf)
+  - CS231n notes on [network architectures](http://cs231n.github.io/neural-networks-1/) and [backprop](http://cs231n.github.io/optimization-2/)
+  - Additional materials:
+    - [Yes you should understand backprop](https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b)
+  - Optional materials:
+    - [NLP (Almost) from Scratch](https://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf) - optional, but highly recommended
 
 # Assignments
 
