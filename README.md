@@ -55,6 +55,8 @@ __How to submit homework__:
   - Optional materials:
     - [NLP (Almost) from Scratch](https://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf) - optional, but highly recommended
 
+
+------------------------------------------------
 # Assignments
 
 __[Assignment 1](http://web.stanford.edu/class/cs224n/assignments/a1.zip)__ </br>
@@ -64,7 +66,7 @@ __[Assignment 2 explanation](http://web.stanford.edu/class/cs224n/assignments/a2
 __[Assignment 2 code](http://web.stanford.edu/class/cs224n/assignments/a2.zip)__ </br>
 deadline: 30/07/21
 
-
+------------------------------------------------
 
 # Project ideas
 - Adversarial attacks on NLP models (https://arxiv.org/pdf/1911.03677.pdf)
