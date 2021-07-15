@@ -32,7 +32,27 @@ __How to submit homework__:
     - [A Corrected CBOW Implementation](https://arxiv.org/pdf/2012.15332.pdf)
 </br>
 
-__[Assignment 1](http://web.stanford.edu/class/cs224n/assignments/a1.zip)__ deadline: 16/07/21 
+
+## Week 2. Word Vectors and Word Senses
+
+  - [Video lecture](https://youtu.be/kEMJRjEdNzM)
+  - [Enriching Word Vectors with Subword Information](https://www.mitpressjournals.org/doi/pdfplus/10.1162/tacl_a_00051)
+  - Additional materials:
+    - [GloVe paper](http://nlp.stanford.edu/pubs/glove.pdf)
+    - [FastText talk](https://youtu.be/CHcExDsDeHU)
+    - [CS231n: Backpropagation](https://youtu.be/i94OvYb6noo)
+  - Optional materials:
+    - [A Latent Variable Model Approach to PMI-based Word Embeddings](https://aclanthology.org/Q16-1028.pdf)
+
+
+# Assignments
+
+__[Assignment 1](http://web.stanford.edu/class/cs224n/assignments/a1.zip)__ </br>
+deadline: 16/07/21 
+
+__[Assignment 2 explanation](http://web.stanford.edu/class/cs224n/assignments/a2.pdf)__  </br>
+__[Assignment 2 code](http://web.stanford.edu/class/cs224n/assignments/a2.zip)__ </br>
+deadline: 30/07/21
 
 
 
