@@ -30,6 +30,7 @@ __How to submit homework__:
     - [Efficient Estimation of Word Representations in Vector Space - Word2Vec paper](https://arxiv.org/pdf/1301.3781.pdf)
     - [Distributed Representations of Words and Phrases and their Compositionality - negative sampling paper](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
     - [A Corrected CBOW Implementation](https://arxiv.org/pdf/2012.15332.pdf)
+    - [Bias in Word Embeddings](https://dl.acm.org/doi/pdf/10.1145/3351095.3372843)
 </br>
 
 
