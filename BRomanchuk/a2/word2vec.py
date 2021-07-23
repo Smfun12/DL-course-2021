@@ -63,11 +63,11 @@ def naiveSoftmaxLossAndGradient(
     # use pdf notation of U, v_c and u_o
     U, v_c = outsideVectors, centerWordVec
     # calculate dot product of U and v_c
-    U_cross_v = np.matmul(U, v_c)
+    U_dot_v = np.matmul(U, v_c)
     # calculate loss and its gradient
-    loss = - U_cross_v[outsideWordIdx] + np.log(np.sum(np.exp(U_cross_v)))
-    gradCenterVec = - U[outsideWordIdx] + np.matmul(np.exp(U_cross_v).T, U).T / np.sum(np.exp(U_cross_v))
-    gradOutsideVecs = np.matmul(np.exp(U_cross_v).reshape((-1, 1)), v_c.reshape((1, -1))) / np.sum(np.exp(U_cross_v))
+    loss = - U_dot_v[outsideWordIdx] + np.log(np.sum(np.exp(U_dot_v)))
+    gradCenterVec = - U[outsideWordIdx] + np.matmul(np.exp(U_dot_v).T, U).T / np.sum(np.exp(U_dot_v))
+    gradOutsideVecs = np.matmul(np.exp(U_dot_v).reshape((-1, 1)), v_c.reshape((1, -1))) / np.sum(np.exp(U_dot_v))
     gradOutsideVecs[outsideWordIdx] -= v_c  # add derivative part to the o-th vector
     ### Please use the provided softmax function (imported earlier in this file)
     ### This numerically stable implementation helps you avoid issues pertaining
@@ -119,21 +119,22 @@ def negSamplingLossAndGradient(
     ### YOUR CODE HERE (~10 Lines)
     # use pdf notation of U, v_c and u_o
     U, v_c, o = outsideVectors, centerWordVec, outsideWordIdx
+    # calculate dot product of U and v_c
     U_dot_v = np.matmul(U, v_c)
+    # calculate loss and its gradient
     loss = - np.log(sigmoid(U_dot_v[o])) - \
            np.sum(np.log(sigmoid(-U_dot_v[negSampleWordIndices])))
     gradCenterVec = - sigmoid(U_dot_v[o]) * np.exp(-U_dot_v[o]) * U[o] + \
                     np.matmul(U[negSampleWordIndices].T, np.exp(U_dot_v[negSampleWordIndices]) *
                               sigmoid(-U_dot_v[negSampleWordIndices]))
 
-    # TODO calculate gradOutsideVecs
-    gradOutsideVecs = np.zeros(shape=U.shape)
-    negSamplesVectors = np.matmul((np.exp(U_dot_v[negSampleWordIndices]) * sigmoid(-U_dot_v[negSampleWordIndices])).reshape((-1, 1)), v_c.reshape((1, -1)))
-
-    for i in range(negSamplesVectors.shape[0]):
-        gradOutsideVecs[negSampleWordIndices[i]] -= negSamplesVectors[i]
+    gradOutsideVecs = np.zeros(shape=U.shape)   # create matrix the same size as U
+    samplesMatrix = np.matmul((sigmoid(-U_dot_v[negSampleWordIndices]) *
+                                 np.exp(U_dot_v[negSampleWordIndices])).reshape((-1, 1)), v_c.reshape((1, -1)))
+    for i in range(samplesMatrix.shape[0]):     # construct the gradient of U (u_w != u_o)
+        gradOutsideVecs[negSampleWordIndices[i]] += samplesMatrix[i]
+    gradOutsideVecs[o] = -np.exp(-np.dot(U[o], v_c)) * sigmoid(np.dot(U[o], v_c)) * v_c     # gradient of u_o
     ### Please use your implementation of sigmoid in here.
-
     ### END YOUR CODE
 
     return loss, gradCenterVec, gradOutsideVecs
