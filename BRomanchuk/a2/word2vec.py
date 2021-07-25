@@ -180,9 +180,23 @@ def skipgram(currentCenterWord, windowSize, outsideWords, word2Ind,
     gradOutsideVectors = np.zeros(outsideVectors.shape)
 
     ### YOUR CODE HERE (~8 Lines)
+    # init and fill indices of outsideWords in Wordlist
+    window_indices = np.zeros(len(outsideWords), dtype=int)
+    for i in range(len(outsideWords)):
+        window_indices[i] = word2Ind[outsideWords[i]]
 
+    # index of the central word
+    center_word_vec_index = word2Ind[currentCenterWord]
+
+    # for every outside word
+    for i in window_indices:
+        # compute the loss and its gradient
+        loss_comp, gradCenterVecs_comp, gradOutsideVectors_comp = word2vecLossAndGradient(centerWordVectors[center_word_vec_index], i, np.asarray(outsideVectors), dataset)
+        # merge them with the result
+        loss += loss_comp
+        gradCenterVecs[center_word_vec_index] += gradCenterVecs_comp
+        gradOutsideVectors += gradOutsideVectors_comp
     ### END YOUR CODE
-    
     return loss, gradCenterVecs, gradOutsideVectors
 
 
