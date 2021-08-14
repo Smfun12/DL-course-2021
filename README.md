@@ -2,9 +2,10 @@
 
 Taking together Stanford CS224n course
 
+### __Track your progress__ [here](https://docs.google.com/spreadsheets/d/12IEHZt-utD6xASKGKpdTxr9lk3q98e1lAcZiv-YuNR8/edit?usp=sharing)
+
 __Course page__: [link](http://web.stanford.edu/class/cs224n/) </br>
 __YouTube Videos__: [link](https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z) </br>
-__Track your progress__ [here](https://docs.google.com/spreadsheets/d/12IEHZt-utD6xASKGKpdTxr9lk3q98e1lAcZiv-YuNR8/edit?usp=sharing)
 
 ### Russian version of the course:
 - __Spring 2020__: [link](https://www.youtube.com/playlist?list=PLt1IfGj6-_-eLbx1kGtFxU53aRyPkctPq) </br>
