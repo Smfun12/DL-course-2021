@@ -90,9 +90,8 @@ __[Assignment 2 explanation](http://web.stanford.edu/class/cs224n/assignments/a2
 __[Assignment 2 code](http://web.stanford.edu/class/cs224n/assignments/a2.zip)__ </br>
 deadline: 30/07/21
 
-(Skipping Assignment 3)
-__[Assignment 3 explanation](http://web.stanford.edu/class/cs224n/assignments/a3.pdf)__  </br>
-__[Assignment 3 code](http://web.stanford.edu/class/cs224n/assignments/a3.zip)__ </br>
+__[Assignment 3 explanation (Skipping)](http://web.stanford.edu/class/cs224n/assignments/a3.pdf)__  </br>
+__[Assignment 3 code (Skipping)](http://web.stanford.edu/class/cs224n/assignments/a3.zip)__ </br>
 deadline: 7/09/21
 
 ------------------------------------------------
