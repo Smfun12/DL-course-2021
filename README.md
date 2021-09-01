@@ -57,6 +57,28 @@ __How to submit homework__:
   - Optional materials:
     - [NLP (Almost) from Scratch](https://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf) - optional, but highly recommended
 
+## Week 4. Neural Networks: Initialization, Normalization, Optimization
+  - [Initialization, Normalization video lecture](https://www.youtube.com/watch?v=gYpoJMlgyXA)
+    - [Lecture notes 1](https://cs231n.github.io/neural-networks-1)
+    - [Lecture notes 2](http://cs231n.github.io/neural-networks-2)
+  - [Optimization video lecture](https://www.youtube.com/watch?v=hd_KFJ5ktUc)
+    - [Lecture notes 1](http://cs231n.github.io/neural-networks-3)
+  
+
+## Week 5. Recurrent Neural Networks and Language Models
+  - [Video lecture](https://www.youtube.com/watch?v=iWea12EAu6U&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=6)
+  - [Lecture notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes05-LM_RNN.pdf)
+  - [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+
+
+## Week 6. Vanishing Gradients, Fancy RNNs
+  - [Video lecture](https://www.youtube.com/watch?v=QEw0qEa0E50&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=7)
+  - [Lecture notes](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture06-fancy-rnn.pdf)
+  - [Sequence modeling: Recurrent and Recursive Neural Networks](https://www.deeplearningbook.org/contents/rnn.html)
+  - [On the difficulty of training Recurrent Neural Networks](https://arxiv.org/pdf/1211.5063.pdf)
+  - [Vanishing gradient Jupyter notebook](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/lectures/vanishing_grad_example.html)
+  - [Understanding LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
 
 ------------------------------------------------
 # Assignments
@@ -67,6 +89,10 @@ deadline: 16/07/21
 __[Assignment 2 explanation](http://web.stanford.edu/class/cs224n/assignments/a2.pdf)__  </br>
 __[Assignment 2 code](http://web.stanford.edu/class/cs224n/assignments/a2.zip)__ </br>
 deadline: 30/07/21
+
+__[Assignment 3 explanation (Skipping)](http://web.stanford.edu/class/cs224n/assignments/a3.pdf)__  </br>
+__[Assignment 3 code (Skipping)](http://web.stanford.edu/class/cs224n/assignments/a3.zip)__ </br>
+deadline: 7/09/21
 
 ------------------------------------------------
 
